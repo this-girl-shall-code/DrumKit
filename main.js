@@ -37,15 +37,15 @@ document.addEventListener('mouseup', function (event){
 });
 
 
-//*********** Functions for touch screen use ******** Issue double sound *********/
+//*********** Functions for touch screen use ******** commented out below is because of an issue of double sound *********/
 
 document.addEventListener('touchstart', function (event){
-    console.log(event);
-    console.log(`${event.target.id} was pressed`);
-    const audio = document.querySelector(`audio[class="${event.target.id}"]`);  
-    if(!audio) return;
-    audio.currentTime= 0; //rewinds audio to start
-    audio.play();
+    // console.log(event);
+    // console.log(`${event.target.id} was pressed`);
+    // const audio = document.querySelector(`audio[class="${event.target.id}"]`);  
+    // if(!audio) return;
+    // audio.currentTime= 0; //rewinds audio to start
+    // audio.play();
     const key = document.getElementById(event.target.id).classList.add('playing');  
 });
 
