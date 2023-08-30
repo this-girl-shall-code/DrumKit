@@ -47,26 +47,26 @@ button{
     box-shadow: 0 0 1rem #ffc600;
 } 
   
-#KeyD{
+.KeyDD{
     padding: 1rem 1.7rem;
 }
   
-#KeyF{
+.KeyFF{
     padding: 1rem .8rem;
 }
   
-#KeyH{
+.KeyHH{
     padding: 1rem 1.8rem;
 }
   
-#KeyJ{
+.KeyJJ{
     padding: 1rem 1.2rem;
 }
   
-#KeyK{
+.KeyKK{
     padding: 1rem 1.8rem;
 }
   
-#KeyL{
+.KeyLL{
     padding: 1rem 1.7rem;
 }
